@@ -4,9 +4,9 @@ Console.WriteLine(s.Edad);
 
 class Estudiante
 {
-    private double edad;
+    private int edad;
 
-    public double Edad
+    public int Edad
     {
         get
         {
