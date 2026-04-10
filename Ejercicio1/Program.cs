@@ -1,4 +1,8 @@
-﻿class CuentaBancaria
+﻿CuentaBancaria s = new CuentaBancaria();
+s.Saldo = -3;
+Console.WriteLine(s.Saldo); 
+
+class CuentaBancaria
 {
 	private double saldo;
 
